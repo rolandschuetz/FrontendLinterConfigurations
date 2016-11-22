@@ -1,0 +1,45 @@
+{
+    // The plugin looks for a .jshintrc file in the same directory as the source
+    // file you"re prettifying (or any directory above if it doesn"t exist, or in
+    // your home folder if everything else fails) and uses those options along
+    // the default ones.
+
+    // libraries
+    "browser": true,
+    "globals": {
+        "alert": false,
+        "console": false,
+        "jQuery": false,
+        "$": false
+    },
+
+    // default coding standards
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    //"esversion": 5,
+    "forin": true,
+    "freeze" : true,
+    "futurehostile": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonew": true,
+    "plusplus": false,
+    "undef": true,
+    "unused": "vars",
+    "strict": true,
+
+    // code style
+    "quotmark": "single",
+    "noempty": true,
+    "immed": true,
+    "camelcase": true,
+    "indent": 4, // code standards, always use 4 spaces for indent
+
+    // standard quality metics
+    "maxdepth": 3,
+    "maxparams": 5,
+    "maxstatements": 15,
+    "maxcomplexity": 10 // checks the cyclomatic complexity of code
+}
